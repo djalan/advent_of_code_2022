@@ -1,4 +1,4 @@
-# advent_of_code_2022
+# Advent of Code 2022
 
 ## Day 08
 ### Part 1
@@ -9,11 +9,11 @@
 - don't need matrix for [m,n] access of elements
 #### why not np.ndarray
 - np.array is the preferred method to create an ndarray
-- np.empty
-- np.zeros
+- `np.array`
+- `np.empty`
+- `np.zeros`
 #### logging warning
 - do not use fstring, use %s formatting to use optimization in logging library
-
 
 
 ## Day09
