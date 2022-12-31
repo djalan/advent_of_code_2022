@@ -14,10 +14,15 @@ set(zip(list1, list2))
 # list of tuples
 list(zip(list1, list2))
 
-# iteration
+# iteration with count/index
 for i, (name, age) in enumerate(zip(names, ages)):
     print(i, name, age)
     # 0 Jesus 33
+
+# iteration
+for (name, age) in zip(names, ages)):
+    print(name, age)
+    # Jesus 33
 ```
 ### divide
 ```python
@@ -26,7 +31,6 @@ for i, (name, age) in enumerate(zip(names, ages)):
 ```
 ### islice
 Read multiple lines at a time
-
 ```python
 from itertools import islice
 
@@ -37,10 +41,10 @@ with open('input.txt') as file:
            break
 ```
 ### intersection
-- intersection of 2 sets
-    - `result = set1 & set2`
-- intersection of 3 sets
-    - `result = set1.intersection(set2, set3)`
+#### intersection of 2 sets
+`result = set1 & set2`
+#### intersection of 3 sets
+`result = set1.intersection(set2, set3)`
 
 
 ## Day 05
